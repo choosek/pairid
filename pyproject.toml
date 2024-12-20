@@ -12,7 +12,16 @@ dependencies = [
     "oblivious~=7.0"
 ]
 
+[project.urls]
+Repository = "https://github.com/choosek/pairid"
+Documentation = "https://pairid.readthedocs.io"
+
 [project.optional-dependencies]
+docs = [
+    "toml~=0.10.2",
+    "sphinx~=5.0",
+    "sphinx-rtd-theme~=2.0.0"
+]
 test = [
     "pytest~=7.4; python_version < '3.12'",
     "pytest~=8.2; python_version >= '3.12'",
@@ -38,4 +47,4 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
-addopts = "--doctest-modules --cov=pairid --cov-report term-missing"
+addopts = "--doctest-modules --ignore=docs --cov=pairid --cov-report term-missing"
