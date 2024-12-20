@@ -4,7 +4,7 @@ pairid
 
 Library of cryptographic key generation and data preparation procedures associated with the PAIR protocol.
 
-|pypi| |readthedocs|
+|pypi| |readthedocs| |actions| |coveralls|
 
 .. |pypi| image:: https://badge.fury.io/py/pairid.svg#
    :target: https://badge.fury.io/py/pairid
@@ -13,6 +13,14 @@ Library of cryptographic key generation and data preparation procedures associat
 .. |readthedocs| image:: https://readthedocs.org/projects/pairid/badge/?version=latest
    :target: https://pairid.readthedocs.io/en/latest/?badge=latest
    :alt: Read the Docs documentation status.
+
+.. |actions| image:: https://github.com/choosek/pairid/workflows/lint-test-cover-docs/badge.svg#
+   :target: https://github.com/choosek/pairid/actions/workflows/lint-test-cover-docs.yml
+   :alt: GitHub Actions status.
+
+.. |coveralls| image:: https://coveralls.io/repos/github/choosek/pairid/badge.svg?branch=main
+   :target: https://coveralls.io/github/choosek/pairid?branch=main
+   :alt: Coveralls test coverage summary.
 
 Purpose
 -------
