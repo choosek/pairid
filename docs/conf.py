@@ -79,6 +79,7 @@ def rtd_url_for_installed_version(name):
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
+    'rbcl': (rtd_url_for_installed_version('rbcl'), None),
     'oblivious': (rtd_url_for_installed_version('oblivious'), None)
 }
 
