@@ -24,7 +24,7 @@ Library of cryptographic key generation and data preparation procedures associat
 
 Purpose
 -------
-This library provides a Python interface for the cryptographic operations necessary to conduct the workflows that are described within the PAIR (Publisher Advertiser Identity Reconciliation) protocol. The commutative encryption and decryption functions are realized via `Curve25519 <https://cr.yp.to/ecdh.html>`__ and the `Ristretto <https://ristretto.group>`__ group (as implemented in the `libsodium <https://github.com/jedisct1/libsodium>`__ library).
+This library provides a Python interface for the cryptographic operations necessary to conduct the workflows that are described within the `Publisher Advertiser Identity Reconciliation (PAIR) protocol <https://iabtechlab.com/pair/>`__. The commutative encryption and decryption functions are realized using `Curve25519 <https://cr.yp.to/ecdh.html>`__ and the `Ristretto <https://ristretto.group>`__ group (via a dependency on the `libsodium <https://github.com/jedisct1/libsodium>`__ and `ge25519 <https://pypi.org/project/ge25519/>`__ libraries).
 
 Installation and Usage
 ----------------------
